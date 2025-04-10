@@ -5,7 +5,6 @@ import morgan from 'morgan';
 import mongoose from 'mongoose';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
-import { MongoMemoryServer } from 'mongodb-memory-server';
 
 // Routes
 import userRoutes from './routes/userRoutes.js';

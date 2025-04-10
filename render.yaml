@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: lead-nexus-backend
+    env: node
+    build:
+      npmVersion: 8.19.4
+    envVars:
+      - key: MONGODB_URI
+        fromDatabase:
+          name: leadnexus
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 30d
+      - key: PORT
+        value: 5000
+      - key: NODE_ENV
+        value: production
+    buildCommand: npm install && npm run build
+    startCommand: node server/server.js
+    healthCheckPath: /api/health

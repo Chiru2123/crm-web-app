@@ -160,18 +160,16 @@ Note: The application uses MongoDB Memory Server for development, which creates 
 The application automatically seeds the database with default accounts when started. You can log in with the following credentials:
 
 #### Admin Account
-- Email: admin@leadnexus.com
-- Password: password123
+- Email: pkakerlla@gmail.com
+- Password: 123456
 
 #### Telecaller Accounts
-- Email: sarah@leadnexus.com
-- Password: password123
+- Email: tgod@gmail.com
+- Password: 123456
 
-- Email: mike@leadnexus.com
-- Password: password123
+- Email: chyrus2123@gmail.com
+- Password: 123456
 
-- Email: emily@leadnexus.com
-- Password: password123
 
 ## Pages and Components
 
@@ -263,5 +261,5 @@ The following enhancements can be implemented to extend the functionality:
 
 ## Contact and Support
 
-For questions, issues, or feature requests, please contact the development team at support@leadnexus.com.
+For questions, issues, or feature requests, please contact the deve.
 

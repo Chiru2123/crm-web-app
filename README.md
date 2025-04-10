@@ -83,7 +83,6 @@ The application follows a full-stack architecture with a React frontend and Expr
 - **Styling**: Tailwind CSS
 - **Build Tool**: Vite
 - **HTTP Client**: Axios
-- **Notifications**: Sonner Toast
 - **Charts**: Recharts
 - **Form Handling**: React Hook Form with Zod validation
 - **Date Handling**: date-fns
@@ -124,8 +123,8 @@ NODE_ENV=development
 
 1. Clone the repository:
 ```sh
-git clone <repository-url>
-cd lead-nexus-crm-main
+git clone `https://github.com/Chiru2123/crm-web-app`
+cd crm-web-app
 ```
 
 2. Install frontend dependencies:
@@ -151,7 +150,7 @@ npm run dev
 npm run dev
 ```
 
-6. Access the application at `http://localhost:5173`
+6. Access the application at `https://crm-web-app-pi.vercel.app/`
 
 Note: The application uses MongoDB Memory Server for development, which creates an in-memory MongoDB instance. No external MongoDB installation is required for development.
 
@@ -160,7 +159,7 @@ Note: The application uses MongoDB Memory Server for development, which creates 
 The application automatically seeds the database with default accounts when started. You can log in with the following credentials:
 
 #### Admin Account
-- Email: pkakerlla@gmail.com
+- Email: kingchiru01@gmail.com
 - Password: 123456
 
 #### Telecaller Accounts
@@ -261,5 +260,5 @@ The following enhancements can be implemented to extend the functionality:
 
 ## Contact and Support
 
-For questions, issues, or feature requests, please contact the deve.
+For questions, issues, or feature requests, please contact the developer chyrus2123@gmail.com.
 
